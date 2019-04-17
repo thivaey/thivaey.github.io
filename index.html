@@ -1,31 +1,325 @@
 <!DOCTYPE html>
-<html>
-<title>Divey Anand</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body class="w3-content" style="max-width:1920px" style="max-height:750px">
+<html lang="en">
 
-<!-- First Grid: Logo & About -->
-<div class="w3-row">
-  <div class="w3-half w3-display-container w3-center" style="height:450px">
-    <img src="cover1.jpeg" class="w3-image" style = "width:100%">
-    <div class="w3-display-middle w3-large">
-			<h1>Divey Anand</h1>	
-      <a href="Divey Anand.pdf" class="w3-button w3-blank w3-block w3-hover-dark-grey w3-padding-8">Resume</a>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Personal Website">
+  <meta name="author" content="Divey Anand">
+
+  <title>Divey Anand</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Divey Anand</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+        </li>
+      </ul>
     </div>
-  </div>
-  <div class="w3-half w3-white w3-container" style="height:450px">
-    <div class="w3-padding-64 w3-center">
-      <h1>About Me</h1>
-      <img src="me.jpg" class="w3-margin w3-circle" alt="Person" style="width:50%">
-      <div class="w3-centre-align w3-large">
-        <p>I'm a sophomore studying Computer Science at the University of Illinois Urbana-Champaign</p>
-				<p>I like programming, reading, and most of all, playing with data!</p>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Divey
+          <span class="text-primary">Anand</span>
+        </h1>
+        <div class="subheading mb-5">1202 S First St · Champaign, IL 61820 · (217) 607-6717 ·
+          <a href="mailto:diveya2@illinois.com">diveya2@illinois.edu</a>
+        </div>
+        <p class="lead mb-5">I'm a sophomore studying Computer Science at the University of Illinois Urbana-Champaign. I'm interested in Data Analytics and Visualization, Artificial Intelligence, Machine Learning and Natural Language Processing.</p>
+        <p class="lead mb-5">I like programming, reading, and most of all, playing with data!</p>
+      
+        <div class="social-icons">
+          <a href="doc/Divey Anand.pdf" target="_blank">
+            <i class="fa fa-file"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/diveyanand/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/diveyanand22" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Course Assistant</h3>
+            <div class="subheading mb-3">CS 125: Introduction to Computer Science</div>
+            <li>
+              Conducted weekly lab sections with 3 others CAs to familiarize students with the Java Development Environment and help them develop the fundamentals of Java Programming and Algorithm Analysis
+            </li>
+            <li>
+              Hosted bi-weekly Office Hours and moderated the class Online Forum to assist students with programming assignments and help them with developing conceptual knowledge
+            </li>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Jan 2018 - May 2018</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Orientation Leader</h3>
+            <div class="subheading mb-3">University of Illinois Office of the Dean of Students</div>
+            <li>
+              Will work with 40 other OLs to serve as the first point of contact for incoming Freshman and Transfer students and their families
+            </li>
+            <li>
+              Will take charge of a small group of students to help them settle in and guide them on how to have a fulfilling and succesful college life
+            </li>
+            <li>
+              Responsible for coordinating with the New Student Programs Office to implement and work the International Student Orientation and Welcome Days 2019 for incoming students
+            </li>  
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2019</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
+        <div class="w-100">
+          <h2 class="mb-5">Projects</h2>
+  
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <h3 class="mb-0">QUAKEWATCH | Data Visualization</h3>
+              <div class="subheading mb-3">Java | Google Maps API | Microsoft Maps API | UnfoldingMaps Library | Processing Graphics Library</div>
+              <p>
+                Independently created an interactive Java Applet that parses geo-spatial and statistical earthquake data provided by the United States Geological Survey and visualizes it on a live Google/Microsoft map using a Graphical User Interface (GUI)
+              </p>
+              <p>
+                  <a href="https://github.com/diveyanand22/UCSDUnfoldingMaps" target="_blank">GitHub link</a>
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">Dec 2018 - Jan 2019</span>
+            </div>
+          </div>
+  
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <h3 class="mb-0">Space Impact v2 | Game Development</h3>
+              <div class="subheading mb-3">C++ | OpenFrameworks Game Development Library</div>
+              <p> 
+                Independently designed and programmed a re-imagination of the classic Nokia Mobile game with modern audio-visual elements
+              </p>
+              <p> 
+                Some features include:
+              </p>
+                <li>
+                    2-dimensional arcade style consistent with the original hit
+                </li> 
+                <li>
+                    Single player 5-key control with randomly generated enemies and high-score support
+                </li>
+              <p>
+                  <a href="https://github.com/diveyanand22/space_impact_v2" target="_blank">GitHub link</a>
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+                <span class="text-primary">April 2018</span>
+            </div>
+          </div>
+          
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <h3 class="mb-0">Simple RSA | Functional Programming</h3>
+              <div class="subheading mb-3">Scheme (LISP) | DrRacket</div>
+              <p> 
+ 	              Created a simple public-key cryptosystem that emulates a basic RSA security device by utilizing an asymmetric cryptographic algorithm with a public key and a private key
+              </p>
+              <p>
+                  <a href="https://github.com/diveyanand22/simple_rsa" target="_blank">GitHub link</a>
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+                <span class="text-primary">April 2018</span>
+            </div>
+          </div>
+
+        </div>
+  
+      </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">University of Illinois Urbana-Champaign</h3>
+            <div class="subheading mb-3">Bachelor of Science</div>
+            <div>Computer Science: Big Data + Machine Learning Track (College of Engineering)</div>
+            <div>Minor in Applied Statistics</div>
+            <p>GPA: 3.61</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2017 - May 2021</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills & Coursework</h2>
+
+        <div class="subheading mb-3">Programming Languages</div>
+        <ul>
+          <li>Visual Studio</li>
+          <li>Eclipse</li>
+          <li>Anaconda</li>
+          <li>Android Studio</li>
+          <li>Git</li>
+          <li>Subversion</li>
+        </ul>
+
+        <p></p>
+
+        <div class="subheading mb-3">Tools</div>
+        <ul>
+          <li>Visual Studio</li>
+          <li>Eclipse</li>
+          <li>Anaconda</li>
+          <li>Android Studio</li>
+          <li>Git</li>
+          <li>Subversion</li>
+        </ul>
+
+        <!-- <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+              <i class="fab fa-compass"></i>
+          </li>
+          <li class="list-inline-item">
+              <i class="fab fa-java"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+        </ul> -->
+
+        <p></p>
+
+        <div class="subheading mb-3">Coursework</div>
+        <ul>
+            <li>CS 225: Data Structures</li>
+            <li>CS 126: Software Design Studio</li>
+            <li>CS 361: Intro. Machine Learning</li>
+            <li>CS 296: Data Visualization</li>
+            <li>CS 241: Systems Programming</li>
+            <li>CS 233: Computer Architecture</li>
+            <li>CS 173: Discrete Structures (Honors)</li>
+            <li>CS 196: Intro. Functional Programming</li>
+            <li>CS 125: Intro. Algorithm Analysis</li>
+            <li>STAT 400: Statistics and Probability I</li>
+            <li>STAT 200: Statistical Analysis</li>
+            <li>MATH 415: Applied Linear Algebra</li>
+          </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Awards &amp; Certifications</h2>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            College of Engineering Dean's List Academic Year 2017-18
+          </li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            James Scholar Honors Program</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            International Award for Young People - Silver Level (2017)
+          </li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            International Award for Young People - Bronze Level (2016)
+          </li>
+        </ul>
+      </div>
+    </section>
+
   </div>
-</div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
 
 </body>
+
 </html>
