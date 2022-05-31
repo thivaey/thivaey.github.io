@@ -1,0 +1,49 @@
+---
+title: "Visualizing CyTOF data"
+author: R. Tyler McLaughlin 
+date: April 29, 2018
+output:
+  md_document
+---
+
+## High-dimensional flow cytometry
+
+All cells in the human body, especially cells of the immune system, rely on cell surface proteins for cell-cell recognition and decision making.  The display of these surface proteins that interact with one another is important developmentally.  It also underlies how our immune cells succeed or often fail to target or kill cancerous, infected, or foreign cells.
+
+Mass cytometry (CyTOF) technology has greatly enhanced the number of different cell surface proteins that can be measured simultaneously on single cells.  Traditional flow cytometry can only measure 18 markers at best because of the spectral limitations of antibody-conjugated fluorescent molecules.  CyTOF, on the other hand, replaces the fluorescent molecules  with pure metal element isotopes.  Their unique mass-to-charge ratios permits quantitation of around 40 different surface proteins.   CyTOF can be thought of as a combination of mass spectrometry and flow cytometry. 
+
+CyTOF is capable of analyzing hundreds of thousands of cells at a rate of 500 cells per second.  While more expensive and slower than traditional flow cytometry, CyTOF has become extremely useful in immunology, hematology, and oncology.
+
+Because of the widespread use and challenges associated with interpreting very high-dimensional data, a large number of data analysis tools have been invented and applied to this new kind of experimental data.
+
+In this tutorial, I use a publically available dataset from the paper ["Genetic and environmental determinants of human NK cell diversity revealed by mass cytometry"](https://www.ncbi.nlm.nih.gov/pubmed/24154599) by Amir Horowitz et al.  
+
+
+## Loading the data
+
+Let's load up an R `data.table` that includes some of the NK cell diversity data (the data.table is included in this repository so you can follow along without creating an account on the Immport hosting website).  
+
+```{r load.data}
+library(data.table)
+load('../scripts/CyTOF-data.Rda')
+dt1
+```
+
+### Installing spade package in R
+
+This package is from Gary Nolan's group at Stanford.  
+
+```{r install.spade, eval = FALSE}
+install.packages("devtools")
+library(devtools)
+devtools::install_github("nolanlab/Rclusterpp")
+source("http://bioconductor.org/biocLite.R")
+devtools::install_github("nolanlab/spade")
+```
+## Performing vi-T-SNE
+
+
+## Conclusions
+
+Visualizing CyTOF data in this blog post.
+I'd like to thank Emily Mace for introducing me to the technology.
