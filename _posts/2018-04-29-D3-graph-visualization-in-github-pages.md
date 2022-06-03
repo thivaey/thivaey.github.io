@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "D3 Graph Visualization in GitHub Pages"
-author: "R. Tyler McLaughlin"
-date: "April 29th, 2018"
+title: "Test: D3 Graph Visualization in GitHub Pages"
+author: "Divey Anand"
+date: "June 2nd, 2022"
 categories: blog
 ---
 <script src="//code.jquery.com/jquery.js"></script>
